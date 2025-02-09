@@ -20,7 +20,7 @@ public class WordFinder {
 
             String line;
             while ((line = reader.readLine()) != null) {
-                words.add(line.toUpperCase());
+                words.add(line.toLowerCase());
             }
         } catch (IOException e) {
             e.printStackTrace();

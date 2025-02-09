@@ -65,5 +65,8 @@ public class DisplayPicture {
         }
         return HANGMANPICS[indexOfPicture];
     }
+    public void setCounter(int counter) {
+        this.indexOfPicture=counter;
+    }
 
 }
